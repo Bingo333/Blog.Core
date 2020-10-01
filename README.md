@@ -10,8 +10,9 @@
 &nbsp;
 
 
-![Logo](http://apk.neters.club/logocore.png)
-![MVP](http://apk.neters.club/MVP_Logo_Horizontal_Preferred_Cyan300_CMYK_72ppi.png)
+![Logo](http://apk.neters.club/logocore.png)  
+
+[![MVP](http://apk.neters.club/MVP_Logo_Horizontal_Preferred_Cyan300_CMYK_72ppi.png)](https://mvp.microsoft.com/zh-cn/PublicProfile/5003704?fullName=anson%20zhang)
 
 
 BCVP（Blog.Core&Vue Project）开箱即用的企业级前后端分离【 .NET Core3.1 Api + Vue 2.x + RBAC】权限框架。 
@@ -23,7 +24,7 @@ BCVP（Blog.Core&Vue Project）开箱即用的企业级前后端分离【 .NET C
 框架模块：  
 - [x] 采用`仓储+服务+接口`的形式封装框架；
 - [x] 异步 async/await 开发；
-- [x] 接入 SqlSugar 提供ORM，封装数据库操作；
+- [x] 接入国产数据库ORM组件 —— SqlSugar，封装数据库操作；
 - [x] 支持自由切换多种数据库，Sqlite/SqlServer/MySql/PostgreSQL/Oracle；
 - [x] 实现项目启动，自动生成种子数据 ✨； 
 - [x] 五种日志记录，审计/异常/请求响应/服务操作/Sql记录等； 
@@ -44,16 +45,18 @@ BCVP（Blog.Core&Vue Project）开箱即用的企业级前后端分离【 .NET C
 - [x] 支持 CORS 跨域；
 - [x] 封装 JWT 自定义策略授权；
 - [x] 使用 Log4Net 日志框架，集成原生 ILogger 接口做日志记录；
-- [x] 使用 SingleR 双工通讯 ✨；
+- [x] 使用 SignalR 双工通讯 ✨；
 - [x] 添加 IpRateLimiting 做 API 限流处理;
 - [x] 使用 Quartz.net 做任务调度;
 - [x] 支持 数据库`读写分离`和多库操作 ✨;
+- [x] 新增 Redis 消息队列 ✨;
 - [ ] 计划 - 设计支付宝/微信支付;
-- [ ] 计划 - Redis/RBMQ 消息队列;
 - [ ] 计划 - 数据部门权限;
 - [ ] 计划 - ES 搜索;
 
 微服务模块：
+- [x] 可配合 Docker 实现容器化；
+- [x] 可配合 Jenkins 实现CI / CD；
 - [x] 可配合 Consul 实现服务发现；
 - [x] 可配合 Ocelot 实现网关处理；
 - [x] 可配合 Nginx  实现负载均衡；
@@ -73,7 +76,8 @@ BCVP（Blog.Core&Vue Project）开箱即用的企业级前后端分离【 .NET C
 
 还在陆续整理中，不过基本操作都在,包括如何新手入门，配置数据，连接DB等等    
 
-[官方文档](http://apk.neters.club/.doc/)  
+[官方文档](http://apk.neters.club/.doc/)    
+[公众号重要文章+视频地址](https://mvp.neters.club/)    
 
 
 
